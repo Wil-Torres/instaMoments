@@ -1,0 +1,146 @@
+/* You can add global styles to this file, and also import other style files */
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
+body, html {
+    height: 100%;
+    color: #777;
+    line-height: 1.8;
+}
+
+/* Create a Parallax Effect */
+.bgimg-1, .bgimg-2, .bgimg-3 {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* First image (Logo. Full height) */
+.bgimg-1 {
+    background-image: url("assets/images/parallax11.jpg");
+    min-height: 100%;
+}
+
+/* Second image (Portfolio) */
+.bgimg-2 {
+    background-image: url("assets/images/parallax12.jpg");
+    min-height: 400px;
+}
+
+/* Third image (Contact) */
+.bgimg-3 {
+    background-image: url("assets/images/parallax13.jpg");
+    min-height: 400px;
+}
+
+.formatoTitulo {letter-spacing: 10px;}
+.w3-hover-opacity {
+    cursor: pointer;
+}
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1024px) {
+    .bgimg-1, .bgimg-2, .bgimg-3 {
+        background-attachment: scroll;
+    }
+}
+.pad64{
+    padding-top: 64px!important;
+    padding-bottom: 64px!important;
+}
+.pad32{
+    padding-top: 32px!important;
+    padding-bottom: 32px!important;
+}
+.contenedor {
+    padding: 0.1em 16px;
+}
+.contenido {
+    max-width: 980px;
+    margin: auto;
+}
+.seccion {
+    margin-top: 16px!important;
+    margin-bottom: 16px!important;
+}
+.row-pad{
+    padding: 0px 8px;
+}
+.display-contenedor-menu{
+    position: relative;
+}
+.opacidad-contenedor-menu{
+    opacity: 0.75;
+}
+.display-middle{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+.text-white{
+    color: #fff!important
+}
+.fondo-logo{
+    color: #fff!important;
+    background-color: #000!important;
+
+}
+.sizeL{
+    font-size: 36px!important;
+}
+.sizeM{
+    font-size: 26px!important;
+}
+.sizeS{
+    font-size: 16px!important;
+}
+
+/* css para menu*/
+.w3-top{
+    top: 0;
+}
+.w3-top, .w3-bottom{
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+.w3-bar{
+    width:100%;overflow:hidden;
+}
+.w3-right {
+    float: right!important;
+}
+.w3-center .w3-bar{
+    display:inline-block;
+    width:auto
+}
+.w3-bar .w3-bar-item{
+    padding:8px 16px;
+    float:left;
+    width:auto;
+    border:none;
+    display:block;
+    outline:0;
+}
+.w3-bar .w3-button{
+    white-space:normal
+}
+.w3-black,.w3-hover-black:hover{
+    color:#fff!important;
+    background-color:#000!important
+}
+
+.w3-bar-block .w3-bar-item{
+    width:100%;
+    display:block;
+    padding:8px 16px;
+    text-align:left;
+    border:none;
+    white-space:normal;
+    float:none;
+    outline:0
+}
+.w3-bar-block.w3-center .w3-bar-item{text-align:center}
+.w3-block{display:block;width:100%}
+.w3-show-block,.w3-show{display:block!important}
+.w3-show-inline-block{display:inline-block!important}
